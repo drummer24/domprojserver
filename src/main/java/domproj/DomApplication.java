@@ -14,8 +14,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class DomApplication {
         @GetMapping("/greetings")
          @CrossOrigin(origins = "*")
-	String home() {
-		return "Hello World!";
+	String[] home() {
+         String []words={"Hello World!","dom"};   
+		return words;
 	}
         
 	public static void main(String[] args) {
