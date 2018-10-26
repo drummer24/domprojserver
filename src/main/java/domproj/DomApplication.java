@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DomApplication {
         @GetMapping("/greetings")
          @CrossOrigin(origins = "*")
-	node home() {
+	house[] home() {
          task zakltask =new task("zaklady");
         task murtask =new task("oporny mur");
         task stenytask =new task("stavba steny");
@@ -26,10 +26,12 @@ public class DomApplication {
         mur.addchild(steny);
         steny.addchild(okna);
         zaklad.addchild(mur);
-        
-        
-                return zaklad;
-	}
+        node zaklad1=zaklad;
+        house roddom= new house("rodinny dom",zaklad);
+        house dom= new house("famyly house",zaklad);
+       house[] domy={dom,roddom};
+
+                return domy;	}
         
 	public static void main(String[] args) {
 		SpringApplication.run(DomApplication.class, args);

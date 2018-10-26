@@ -1,11 +1,4 @@
-<<<<<<< HEAD
 -------------------------------------------------------------------------------
 Test set: domproj.DomApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 42.252 s - in domproj.DomApplicationTests
-=======
--------------------------------------------------------------------------------
-Test set: domproj.DomApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 42.252 s - in domproj.DomApplicationTests
->>>>>>> afbdec87b4f7daaf507039bb6a0085b058d3d8dc
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.887 s - in domproj.DomApplicationTests

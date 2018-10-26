@@ -46,4 +46,19 @@ class node{
         return this.childs;
     }
 }  
-
+class house{
+     private String name;
+       //private ArrayList<node> childs = new ArrayList<node>();
+    private node tasks;
+    house(String newname,node newtasks){
+        this.name=newname;
+        this.tasks=newtasks;
+    
+    }
+     public String getname(){
+        return this.name;
+    }
+     public node gettasks(){
+        return this.tasks;
+    }
+}
